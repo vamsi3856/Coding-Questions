@@ -1,0 +1,32 @@
+Problem Statement:
+One day chef's friends were playing chess and as chef is not aware of chess, his friends explained the rules of chess. 
+Chef is fond of the knight role  in the chess and he came through a question that in
+ how many ways can a 2 knights be placed in a (N*N sized board) such that they don't attack each other. 
+As chef is good at mathematics he found the solution and challenged his CSE friends to find the answer.
+ Now it's your turn to find the number of ways that knights can be placed...
+
+To increase  the difficulty, chef asked them to find the number of ways the 2 knights can be placed in (1 to N) squared sized board.
+
+Input Format:
+The first line consists of Testcases T
+For each testcase,consists of N  value 
+
+Output Format:
+For given N value print the number of ways from 1 to N square sized board.
+i.e you need to find the possibility for 1X1,2X2,3X3....and so on upto NXN and print the answer in a new line for each case.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 10000
+
+Sample Test Case 1:
+Input
+1
+6
+Output
+0
+6
+28
+96
+252
+550

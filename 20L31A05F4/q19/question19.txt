@@ -1,0 +1,18 @@
+5.Find leaders
+One day teacher came to class and want to make leaders in the class. All N students are standing in a sequence. Now it’s teachers turn to decide the leader. To become a leader, his / her height is strictly greater than the all the elements on the right hand side. Teacher got a call and gave this task to the class CR. You are the class CR and make the leaders from the class.
+Note:
+•	Right most person is always a leader
+•	Output format should be in the same as the given sequence.
+Constraints:
+1<=N<=10^4
+1<=array[i]<=10^4
+Input format:
+First line consists of a integer N
+Second line consists of array of size N
+Output format:
+Array of leaders
+Sample input:
+6
+6 7 4 2 5 3
+Sample output:
+7 5 3

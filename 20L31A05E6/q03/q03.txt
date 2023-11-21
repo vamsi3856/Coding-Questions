@@ -1,0 +1,21 @@
+Last-Minute Assignment Rescue
+
+Tom forgot to complete an assignment his teacher gave him, but he arrived at school early. Now, he only has a few minutes before school starts. His assignment is to perform operations on a combination of numbers, (), and []. He needs to add the numbers in (), and multiply the numbers in [].
+Tom asked his senior help. Imagine you are Tom's senior and help him solve his assignment. 
+
+Input Format:
+First line contains an integer 'n' representing the length of a string
+Second line contains the string
+
+Output Format:
+Resultant output is an integer value
+
+Constraints:
+1<=n<=10^2
+
+Sample input:
+15
+126(12[23(12)])
+
+Sample Output:
+12612

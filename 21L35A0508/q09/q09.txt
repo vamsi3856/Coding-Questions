@@ -1,0 +1,29 @@
+MEMER BOY
+
+   Brahmi is a Memer, he makes memes daily and posts them on instagram. Instagram provides a facility of suggesting our posts to people who are interested in such topics ,which increases the reach of the post. If an user uploads X posts a day, Instagram increases (X*20) % of his current reach(Y) and decreases 10% of current reach(Y) if the number of posts per day is less than 5.
+   As Brahmi is a Memer , he wants to know how many days it requires to make his Meme Page to reach Z accounts. Brahmi posts memes in such a way that if he posts X memes on a day then on next day he will post 2*X memes.
+
+Calculate the number of days(n) Brahmi requires to get Z accounts of reach.
+
+Input
+. First line contains t denotes number of test cases,
+. Next t lines contain X,Y,Z denotes the Number of posts brahmi posted on the first       day,Currentreach,No of accounts to be reached.
+
+Output
+. Every test case, print a single line containing n denotes the number of days required.
+
+Constraints
+1 < t < 100
+1 < X < 1000
+1 <Y,Z< 100000
+
+Sample Input
+2
+1 550 2000
+5 290 1500
+
+Sample Output
+5
+2
+
+

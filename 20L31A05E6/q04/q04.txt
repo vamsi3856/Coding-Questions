@@ -1,0 +1,25 @@
+Harmony in Numbers: The Odd and Even Alliance
+
+Once upon a time, in a land of numbers, there was a magical matrix. Each row had its own special powers - some loved odd-numbered columns, while others were drawn to even-numbered columns.
+Set A was like a team of row heroes, adding up the magic from their odd columns. Set B, on the other hand, were the champions of even columns, summoning their own unique power.
+One day, they realized they shared a secret: some numbers were loved by both sets. These special numbers were like bridges between their worlds, bringing them together.
+In the end, they decided to gather these common numbers and present them in a grand list, all in ascending order. It was a harmonious union of odd and even, proving that in the world of numbers, unity could be found even in their differences.
+
+Input Format:
+The first line contains two integers, 'm' representing the number of rows and 'n' representing the number of columns.
+The second line contains the elements of the mxn matrix.
+
+Output Format:
+The result should be presented as an array. Print '-1' if an array is empty.
+
+Constraints: 
+1<=m,n<=10^2
+
+Sample Input:
+3 4
+4 5 1 2
+2 3 6 2
+1 4 4 4
+
+Sample Output:
+5 8

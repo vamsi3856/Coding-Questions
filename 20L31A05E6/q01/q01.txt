@@ -1,0 +1,24 @@
+The Codebreaking adventure of Lily:
+
+Once, in a quiet village, there was a puzzling journal. A girl named Lily decided to decode it. She separated the sentences when she saw spaces, revealing a hidden message. Lily then took out all the strange symbols, keeping only the important words. She found some numbers mixed in with the text. She added them up and put the total at the end of the word ( a word in which the numbers are found )by giving the space.
+
+After this, the journal held a clear story. Lily's cleverness made her a hero in the village. People admired her for figuring out the secret code. This made Lily famous in the village for a long time.
+
+Input Format:
+First line contains an integer 'n' representing the length of a string
+Second line contains a string of length 'n'
+
+Output Format:
+Output a string 
+
+Constraints:
+1<=n<=10^2
+
+Sample Input:
+50
+I #h@a1v2e! #go#ld coi&^&ns an&81d s&ilver co(ins)
+
+Sample Output:
+I have 3 gold coins and 9 silver coins
+
+

@@ -1,0 +1,74 @@
+Problem Statement:
+
+Raghni is good at logical thinking but she is unable to code.
+So she is asking you to solve the following problem:
+
+You are given an integer N, which contains two set of integers A and
+B. In which set A contains 1 to N. And set B contains N+1 to
+2N. Now there is a set C which is formed from the sum of 
+values of sets A and B. 
+
+For example, if N equals 3 then 
+A={1,2,3},B={4,5,6} and C={5,6,6,7,7,7,8,8,9}.
+
+You are  given M queries find the frequency of a given number in set 
+C.
+Here frequency of 7 is 3 so output should be 3.
+
+Input Format:
+
+First line contains T -> The number of testcases
+
+For each testcase:
+First line contains N and M where N denotes the number of
+integers and M denotes the number of queries.
+
+The next M lines contains the queries.
+
+Output Format:
+
+Output the frequency for each query in a new line
+
+Constraints:
+1 <= T <= 1000
+
+1 <= N <= 10^9
+
+1 <= M <= 10^5
+
+1 <= Q <= 3*N
+
+Sample Test Case 1:
+Input
+1
+5 6
+11
+8
+9
+5
+12
+20
+Output
+5
+2
+3
+0
+4
+0
+
+Explanation
+Here N value is 5. So set A={1,2,3,4,5} set B={6,7,8,9,10}
+
+set C=A+B => C={7,8,8,9,9,9,10,10,10,10,11,11,11,11,11,12,12,12,12,13,13,13,14,14,15} 
+So,
+- 11 occurs 5 times 
+
+- 8 occurs 2 times
+
+- 9 occurs 3 times
+
+- 5 is not present in C
+
+- 12 occurs 3 times
+
+- 20 is not present in C

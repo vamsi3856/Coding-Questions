@@ -1,0 +1,21 @@
+3.Matrix challenge 
+	Alice confused about the problem in the exam, Given a NxN matrix of positive numbers and K a positive integer. Now you need to find the row and column that encounter maximum element in matrix , and subtract the K from the each element of that row and column. If any value becomes less than 0, then replace it will 0.
+	Then freeze this row and column and perform same for the Remaining matrix until all rows and columns are become freeze. We can’t perform any operation on freezed value in the matrix.
+Constraints:
+1<=N<=10²
+1<=K<=10²
+Input format:
+First line consists of two integers N , K representing size of matrix and K value
+Second line consists of matrix
+Output format:
+Output matrix after freezing all rows and columns
+Sample input:
+3 2
+3  5  6
+1  8  2
+4 10  3
+Sample Output:
+1  3  4
+0  6  0
+2  8  1
+

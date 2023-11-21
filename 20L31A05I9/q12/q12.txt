@@ -1,0 +1,3 @@
+In a village, there was an elderly man, Mr. Smith, who enjoyed solving puzzles and helping others. One day, a group of curious children approached him with an array of numbers and a question about finding the "next greater element."
+
+With a kind smile, Mr. Smith explained that finding the "next greater element" was like a game of looking ahead. As they traversed the array from left to right, they should identify the first greater number to the right of each element and note it . This number would be their "next greater friend." However, if no greater number appeared on the right, they'd have to accept that their "next greater friend" was absent and note it as -1 , like a friendly wave goodbye.

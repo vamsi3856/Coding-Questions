@@ -1,0 +1,2 @@
+In a peaceful village, friends tackled a captivating puzzle. Their task: to unveil the order within an array of integers. As they compared elements, they counted instances where a smaller number came after a larger one. With each discovery, the array's hidden patterns will began to emerge, bringing them closer to the solution. So, help them in finding the count of instances where a smaller number came after a larger one.
+

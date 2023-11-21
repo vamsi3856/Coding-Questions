@@ -1,0 +1,6 @@
+In a vibrant city, there were three friends, Alex, Ben, and Carol. They shared a passion for numbers and embarked on an intriguing quest to find a special triplet.
+
+Their mission was to encounter three integers in their journey whose sum equated to zero. It was like searching for a unique harmony within the world of numbers. If they can successfully find those numbers they won the quest else they fail.
+
+As they ventured through the city, they examined different numerical situations, trying to discover the magical combination where the sum was precisely zero.
+Help them to find their desired numbers if they can find them then return 1 else return  0.

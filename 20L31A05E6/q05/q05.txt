@@ -1,0 +1,27 @@
+The parity party
+
+In a land where numbers ruled, there was a gathering of digits. They had a special way of categorizing themselves - some were even and some were odd.
+One sunny day, they decided to hold a celebration. If all the digits in their group were even parity bit,  they would declare it a "Happy" day and dance with delight. But if even one odd parity bit dared to join the party, a shadow would fall, and they would feel "Unhappy."
+Note: Digit is said to be an even parity bit if total count of '1' bits is even within its binary representation.
+
+Input Format:
+The first line contains an integer 't' representing the number of test cases.
+The second line contains an integer 'n' representing the size of an array.
+The third line contains an array elements.
+
+Output Format:
+A string indicating either "Happy" or "Unhappy"
+
+Constraints:
+1<=n<=10^2
+
+Sample Input:
+2
+4
+17 5 15 6
+5
+3 12 16 50
+
+Sample Output:
+Happy
+Unhappy

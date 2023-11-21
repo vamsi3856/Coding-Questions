@@ -1,0 +1,27 @@
+2.Guess the path
+	One day, Alice planed a boat event in the river and invited all his friends with boats. All should follow the alice from his back . Alice prepared N flags in river, He need to go through the N flags. He arranged in this following manner-
+•	Draw N lines horizontally , Then he kept one flag on one line.
+•	1st flag is at starting of first line
+•	2nd flag is at middle of second line
+•	3rd flag is at end of third line
+•	4th flag is at middle of fourth line
+•	5th flag is at start of fifth line
+•	This will continue to the N th line.
+First Alice will take first flag from starting point and started towards next flags, Then all his Friends will follow him in the same way. After last N th person starting from starting point, Show how the visual looks like. 
+Input Format:
+First line consists of an integer N.
+Output Format:
+Visual representing the way of boats moving
+Constraints:
+1<=n<=10⁴
+Sample input:
+8
+Sample output:
+*
+  *
+     *
+  *
+*
+  * 
+     *
+  *

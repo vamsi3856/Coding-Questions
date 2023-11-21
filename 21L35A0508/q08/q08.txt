@@ -1,0 +1,34 @@
+Problem Statement:
+Chef had created a algorithm with generates elements of length n in which the absolute difference between every two consecutive digits is k.
+ His friends stated his algorithm is not correct. Help Chef by printing the elements which satisfies the condition so that chef can win in the arguement
+Note: print the elements which satisfies the condition in the ascending order 
+Leading zeroes are not considered in count of a number...
+
+Input Format:
+The first line contains T - The number of testcases
+The next T lines consists of n and k seperated by space
+
+Output Format:
+For every testcase print the elements in new line seperated by space
+
+Constraints:
+1 <= t <= 100
+2 <= n <= 9
+0 <= k <= 9
+
+Sample Test Case 1:
+Input
+1
+3 6
+
+Output
+171 282 393 606 717 828 939
+
+Explanation
+For 171 -> abs(1,7)=6
+           abs(7,1)=6
+
+For 282 -> abs(2,8)=6
+           abs(8,2)=6
+
+similarly for all elements the condition satisfied

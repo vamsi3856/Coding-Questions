@@ -1,0 +1,24 @@
+  1.  Colorful seat adventure
+In a bustling mall, two close friends, Alice and Bob, embarked on an intriguing game. The game featured two rows of seats , each painted in random colors – red(R) , blue(B) , and green(G) . Alice bravely took the first seat in the first row, while Bob eagerly occupied the initial seat in the second row. The rules were simple: if the seat colors matched, both could advance; if not, They move alternatively for first unmatch alice will go forward and for next unmatch bob will move forward and so on.
+As they ventured through the maze of colored seats, the suspense mounted. Alice and Bob competed with all their might to reach the end of their respective rows first. Onlookers in the mall were drawn to the thrilling contest between the two friends.
+The climax of the game arrived when either Alice or Bob reached the end of their row. The crowd held its breath, eagerly awaiting the announcement of the winner. But entire mall wants you to announce the winner and also position of runner.
+If both will reach to end at same time, announce Alice as winner.
+Input Format:
+First line contains an integer 'n' representing the length of first row
+Second line contains a string of length n
+Third line contains an integer ‘m’ representing the length of second row
+Fourth line contains a string of length m
+Output Format:
+Winner name , Runner position.
+Constraints:
+1<=n,m<=10²
+Sample Input:
+5
+RRGBG
+7
+BGGRBGR
+
+Sample Output:
+Alice
+4
+

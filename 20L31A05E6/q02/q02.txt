@@ -1,0 +1,25 @@
+The Alphabet Arrangement Challenge 
+
+You and I were eager to learn Machine learning from the wise and experienced Tom. However, Tom had a condition - he would only share his knowledge once we successfully tackled a particular puzzle.
+This puzzle was known as the "Alphabet Arrangement Challenge". We were presented with a combination of letters (a-z) and tasked with creating a new combination. The rules were as follows:
+1. An alphabet which is repeated more should be placed first.
+2. Once an alphabet placed, it should not be considered again. for ex a is the most repeated letter in a string, count of 'a' is 5, after placing 'a', the count of 'a' will become 4.
+3. In the case of multiple alphabets repeated the same number of times, the alphabet which comes first in (a-z) should be placed first.
+Determined to kickstart our journey into Machine learning, we eagerly accepted the challenge. 
+
+Input Format :
+The first line an integer 'len' representing the length of the string.
+The second line contain a string.
+
+Output Format:
+Output a string by following the rules.
+
+Constraints
+1<=t<=10^2
+1<= length of string <= 10^2
+
+Sample Input:
+abcdccbacbcbc
+
+Sample Output:
+cbcdbcdabcdabcd
